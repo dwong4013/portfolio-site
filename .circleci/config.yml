@@ -36,6 +36,7 @@ workflows:
   version: 2
   deploy:
     jobs:
+      - test_build
       - build_push_release_image:
           requires:
             - test_build
