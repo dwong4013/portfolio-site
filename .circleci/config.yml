@@ -42,5 +42,5 @@ workflows:
             - test_build
           filters:
             branches:
-              only: main
+              only: master
 
