@@ -1,149 +1,134 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "thumbnail" : "moreplates-01.PNG",
+            "images" : ["moreplates-01.PNG", 
+                "moreplates-02.PNG",
+                "moreplates-03.PNG",
+                "moreplates-04.PNG",
+                "moreplates-05.PNG",
+                "moreplates-06.PNG",
+                "moreplates-07.PNG",
+                "moreplates-08.PNG",
+                "moreplates-09.PNG",
+                "moreplates-10.PNG",
+                "moreplates-11.PNG",
+                "moreplates-12.PNG",
+                "moreplates-13.PNG",
+                "moreplates-14.PNG",
+                "moreplates-15.PNG",
+                "moreplates-16.PNG"
+            ],
+            "title": "More Plates",
+            "bodyText": "- A **responsive** CRUD app for mobile and desktop for a beginner-friendly journal for 531 powerlifting program. \n - Front end built with **React**, React Redux, and Sass and served with **Nginx**. \n - Back end built on **Node.js**, Express.js, and **MongoDB**. \n - User authentication with json web tokens. \n - **React Testing Library** and Jest for front end testing. \n - **Mocha** and Sinon for backend testing. \n - Developed on **Docker**. \n - CI/CD pipeline with **Circle CI** to test and deploy on **Heroku**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/dwong4013/531logger/tree/v2"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://moreplates.herokuapp.com"
                 }
             ],
             "tags" : [
                 "React",
-                "Portfolio",
-                "JavaScript"
+                "React Redux",
+                "Nodejs",
+                "MongoDB",
+                "Nginx",
+                "React Testing Library",
+                "Jest",
+                "Mocha",
+                "Sinon",
+                "Heroku",
+                "Docker",
+                "Circle CI",
+                "Sass"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "thumbnail" : "saas-01.PNG",
+            "images" : ["saas-01.PNG", 
+                "saas-02.PNG",
+                "saas-03.PNG",
+                "saas-04.PNG",
+                "saas-05.PNG",
+                "saas-06.PNG",
+                "saas-07.PNG",
+                "saas-08.PNG",
+                "saas-09.PNG",
+                "saas-10.PNG",
+                "saas-11.PNG",
+                "saas-12.PNG",
+                "saas-13.PNG",
+                "saas-14.PNG",
+                "saas-15.PNG",
+                "saas-16.PNG",
+                "saas-17.PNG",
+                "saas-18.PNG",
+                "saas-19.PNG",
+                "saas-20.PNG",
+                "saas-22.PNG",
+                "saas-23.PNG",
+                "saas-24.PNG",
+                "saas-25.PNG",
+                "saas-26.PNG",
+                "saas-27.PNG",
+                "saas-28.PNG",
+                "saas-29.PNG",
+                "saas-30.PNG"
+            ],            
+            "title": "Warehouse SaaS Prototype",
+            "bodyText": "- A **SaaS ERP** desktop-only prototype used for managing the order to cash process for B2B operations. \n - Front end built with **React**, React Redux, and Sass. \n - Back end built on **Node.js**, Express.js, and **MongoDB**. \n - User authentication with sessions and **Google OAuth**. \n - **React Testing Library** and Jest for front end testing. \n - **Mocha** and Sinon for backend testing. \n - Developed on **Docker**. \n - CI pipeline for testing on **Circle CI**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/Central-Nova/webproto/tree/development"
+                }
+            ],
+            "tags" : [
+                "React",
+                "React Redux",
+                "Nodejs",
+                "Passportjs",
+                "MongoDB",
+                "React Testing Library",
+                "Jest",
+                "Mocha",
+                "Docker",
+                "Circle CI",
+                "Sass"
+            ]
+        },
+        {
+            "thumbnail": "logger-1.PNG",
+            "images" : ["logger-1.PNG", 
+                "logger-2.PNG",
+                "logger-3.PNG",
+                "logger-4.PNG",
+                "logger-5.PNG"
+            ],
+            "title": "531 Logger",
+            "bodyText": "- A CRUD desktop-only app serving as a customizable workout planner and journal for the 531 powerlifting program. \n - Front end built on **React**, React Redux, and Sass. \n - Back end built on **Nodejs** and Express. \n - Deployed on **Heroku** using **Circle CI**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/dwong4013/531logger/tree/v1"
                 },
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://logger-531-v1.herokuapp.com"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
+                "React",
+                "React Redux",
+                "Nodejs",
+                "MongoDB",
                 "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Circle CI",
+                "Sass"
             ]
         }
     ]
