@@ -2,7 +2,7 @@
 
 FROM node:16-alpine AS development
 
-WORKDIR /usr/src/531logger/client
+WORKDIR /usr/src/portfolio-site
 
 COPY ["package.json", "package-lock.json*", "./"]
 
@@ -23,7 +23,7 @@ FROM nginx:mainline-alpine AS production
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy from the stage 1
-COPY --from=builder /usr/src/531logger/client/build /usr/share/nginx/html
+COPY --from=builder /usr/src/portfolio-site/build /usr/share/nginx/html
 
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf.template
 
